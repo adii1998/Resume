@@ -159,6 +159,11 @@ body{
  }
 
  @media screen and (max-width: 424px){
+    @media screen and (max-width: 424px){
+        .Resume .resume-right .resume-data .year:before, .Resume .resume-right .resume-data .year:after {
+            display: none;
+}
+    }
     .Resume .resume-right{
         padding: 20px 30px;
     }

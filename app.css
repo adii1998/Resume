@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 *{
     margin: 0;
@@ -185,3 +186,192 @@ body{
         font-size:24px;
     }
  }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: #c4c4c4;
+    font-size: 14px;
+    line-height: 20px;
+}
+.Resume{
+    display: flex;
+    width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 10px;
+}
+.Resume .resume-left{
+  width: 39%;
+  background: #26252d;
+}
+.Resume .resume-title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom:10px ;
+    letter-spacing: 4px;
+}
+.Resume .resume-left .resume-info{
+    color: #84838b;  
+}
+.Resume .resume-left .resume-bottom{
+    padding: 20px 30px;
+}
+.Resume .resume-item{
+    padding: 20px 0;
+    border-bottom: 1px solid #0175b2;
+}
+.Resume .resume-item:last-child{
+    border-bottom: 0;
+}
+.Resume .resume-name-role .name{
+   font-size: 20px;
+   color: #fff;
+   text-transform:uppercase;
+   font-weight: 700;
+   margin-bottom: 5px;
+   letter-spacing: 4px;
+}
+.Resume .resume-left .resume-name-role .role{
+    color: #84838b;
+}
+.Resume .resume-left .resume-contact .resume-info:last-child{
+    margin-top:10px;
+}
+.Resume .resume-left .resume-contact .resume-subtitle{
+    color: #fff;
+    margin-bottom: 2px;
+
+}
+.Resume .resume-left .resume-skills .skills-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.Resume .resume-left .resume-skills .skills-list .skills-bar p{
+    position: relative;
+    width: 125px;
+    height: 20px;
+    background: #fff;
+}
+.Resume .resume-left .resume-skills .skills-list .skills-bar p span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #0175b2;
+    width: 100%;
+    height: 100%;
+}
+.Resume .resume-right{
+    width: 65%;
+    padding: 20px 40px; 
+    color: #26252d;
+}
+.Resume .resume-right .resume-name-role .name{
+    color: #26252d;
+    font-size: 32px;
+}
+.Resume .resume-right .resume-name-role .role{
+   font-size: 14px;
+   text-transform: uppercase;
+}
+.Resume .resume-right .resume-item .resume-title{
+    color: #26252d;
+}
+.Resume .resume-right .resume-data {
+    display: flex;
+}
+.Resume .resume-right .resume-data .year{
+    padding-right: 35px;
+    width: 115px;
+    position: relative;
+}
+
+.Resume .resume-right .resume-data .resume-content{
+    padding-left: 35px;
+    margin-bottom: 20px;
+    width: calc(100% - 115px);
+}
+.Resume .resume-right .resume-data .year:before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 1px solid #2625ed;
+    border-radius: 50%;
+}
+.Resume .resume-right .resume-data .year:after{
+    content: "";
+    position: absolute;
+    top: 17px;
+    right: 4px;
+    width: 3px;
+    height: 90%;
+    background: #0175b2;
+}
+.Resume .resume-right .resume-interests .resume-info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.Resume  .resume-right .resume-interests .interests .int-icon{
+   font-size: 32px;
+   color: #0175b2;
+   margin-bottom:10px ;
+ }
+
+ @media screen and (max-width: 800px){
+ .Resume .resume-right .resume-name-role{
+        display: none;
+    }
+    .Resume {
+        width: 95%;
+        margin: 10px auto;
+        flex-direction: column;
+    }
+    .Resume .resume-left,
+    .Resume .resume-right{
+        width: 100%;
+    }
+ }
+
+ @media screen and (max-width: 424px){
+    @media screen and (max-width: 424px){
+        .Resume .resume-right .resume-data .year:before, .Resume .resume-right .resume-data .year:after {
+            display: none;
+}
+    }
+    .Resume .resume-right{
+        padding: 20px 30px;
+    }
+    .Resume .resume-right .resume-data{
+        flex-direction:column;
+    }
+    .Resume .resume-right .resume-data .year{
+        padding:0;
+        margin-bottom: 5px;
+        width: 100%;
+        color: #0175b2;
+    }
+    .Resume .resume-right .resume-data .year:before,
+    .Resume .resume-right .resume-data .year:after{
+        width: 100%;
+        padding: 0;
+    }
+    .Resume .resume-right .resmue-interests .interest .int-icon{
+        font-size:24px;
+    }
+ }
+>>>>>>> 05a9a0ea4be00cf3e74157deeeecbf416b2b3fa8
